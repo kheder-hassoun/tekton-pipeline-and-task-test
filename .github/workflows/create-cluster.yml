@@ -1,4 +1,4 @@
-name:  Run unit tests with nose 
+name:  oc-pipelines-oc-green
 
 on:
   push:
