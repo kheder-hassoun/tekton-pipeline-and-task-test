@@ -19,7 +19,7 @@ spec:
       script: |
               #!/usr/bin/env sh
                 set -eu
-                echo "Removing all files from ${WORKSPACE_SOURCE_PATH} ..."
+                echo "Removing all files from ${WORKSPACE_SOURCE_PATH} ...."
                 # Delete any existing contents of the directory if it exists.
                 #
                 # We don't just "rm -rf ${WORKSPACE_SOURCE_PATH}" because ${WORKSPACE_SOURCE_PATH} might be "/"
